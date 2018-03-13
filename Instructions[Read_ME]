@@ -4,8 +4,8 @@ Create Vanila or Custom dmg
 //The below is a vanilla image 
 1) Download the latest version OSX
 2) Install the OSX on the laptop/ machine you which you created the image.dmg
-3) Download the latest version of AutoDMG
-4) Open text pad and create a the MySite.adtmpl file [for easiness save it in /Applications]
+3) Download the latest version of AutoDMG [https://github.com/MagerValp/AutoDMG/releases]
+4) Open text pad and create a the MySite.adtmpl file [Uploaded in the project - for easiness save it in /Applications]
 5) Open Terminal and run the following
         /Applications/AutoDMG.app/Contents/MacOS/AutoDMG update
         /Applications/AutoDMG.app/Contents/MacOS/AutoDMG download 10.13.3 17D47 (Note* if the downloaded OSX is a newer version it will stop and show you the new version in terminal)
@@ -18,8 +18,8 @@ Create Vanila or Custom dmg
 
 1) Download the latest version OSX
 2) Install the OSX on the laptop/ machine you which you created the image.dmg
-3) Download the latest version of AutoDMG
-4) Open text pad and create a the MySite.adtmpl file [for easiness save it in /Applications]
+3) Download the latest version of AutoDMG [https://github.com/MagerValp/AutoDMG/releases]
+4) Open text pad and create a the MySite.adtmpl file [Uploaded in the project - for easiness save it in /Applications]
 5) Open Terminal and run the following
         /Applications/AutoDMG.app/Contents/MacOS/AutoDMG update
         /Applications/AutoDMG.app/Contents/MacOS/AutoDMG download 10.13.3 17D47 (Note* if the downloaded OSX is a newer version it will stop and show you the new version in terminal)
