@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd"> 
+<plist version="1.0"> 
+<dict> 
+<key>TemplateFormat</key> 
+<string>1.0</string> 
+<key>SourcePath</key> 
+<string>/Applications/Install\ macOS\ High\ Sierra.app</string> 
+<key>OutputPath</key> 
+<string>/Users/Shared/BaseImage-%OSVERSION%-%OSBUILD%.hfs.dmg</string> 
+<key>VolumeName</key> 
+<string>Macintosh HD</string> 
+<key>Filesystem</key> 
+<string>hfs</string> 
+<key>ApplyUpdates</key> 
+<true/> 
+
+</dict> 
+</plist>;
