@@ -25,3 +25,9 @@ Create Vanila or Custom dmg
         /Applications/AutoDMG.app/Contents/MacOS/AutoDMG download 10.13.3 17D47 (Note* if the downloaded OSX is a newer version it will stop and show you the new version in terminal)
         /Applications/AutoDMG.app/Contents/MacOS/AutoDMG \build --download-updates --installer /Applications/Install\ macOS\ High\ Sierra.app /Applications/MySite.adtmpl /Applications/Slack.app /Applications/Google\ Chrome.app /Applications/McAfeeSmartInstall.app /Applications/zoom.us.app /Applications/Microsoft\ Excel.app /Applications/Microsoft\ OneNote.app /Applications/Microsoft\ PowerPoint.app /Applications/Microsoft\ Word.app
 
+
+
+
+Once you have the dmg file created it put it on a memory stick and have boot up the MAC OS in recovery mode open terminal and use the following
+
+asr restore —erase —noprompt —buffersize 4m —source /Volumes/inputdevice/file —target /dev/disk0s2
