@@ -1,0 +1,27 @@
+# Create_OSX_Build
+Create Vanila or Custom dmg
+
+//The below is a vanilla image 
+1) Download the latest version OSX
+2) Install the OSX on the laptop/ machine you which you created the image.dmg
+3) Download the latest version of AutoDMG
+4) Open text pad and create a the MySite.adtmpl file [for easiness save it in /Applications]
+5) Open Terminal and run the following
+        /Applications/AutoDMG.app/Contents/MacOS/AutoDMG update
+        /Applications/AutoDMG.app/Contents/MacOS/AutoDMG download 10.13.3 17D47 (Note* if the downloaded OSX is a newer version it will stop and show you the new version in terminal)
+        /Applications/AutoDMG.app/Contents/MacOS/AutoDMG \build --download-updates --installer /Applications/Install\ macOS\ High\ Sierra.app /Applications/MySite.adtmpl 
+
+
+
+//To do a custom build again for easiness ensure all the applications are moved/ located in /Application 
+//For example my custom build is (installing - slack, chrome, office products, zoom, McAfee)
+
+1) Download the latest version OSX
+2) Install the OSX on the laptop/ machine you which you created the image.dmg
+3) Download the latest version of AutoDMG
+4) Open text pad and create a the MySite.adtmpl file [for easiness save it in /Applications]
+5) Open Terminal and run the following
+        /Applications/AutoDMG.app/Contents/MacOS/AutoDMG update
+        /Applications/AutoDMG.app/Contents/MacOS/AutoDMG download 10.13.3 17D47 (Note* if the downloaded OSX is a newer version it will stop and show you the new version in terminal)
+        /Applications/AutoDMG.app/Contents/MacOS/AutoDMG \build --download-updates --installer /Applications/Install\ macOS\ High\ Sierra.app /Applications/MySite.adtmpl /Applications/Slack.app /Applications/Google\ Chrome.app /Applications/McAfeeSmartInstall.app /Applications/zoom.us.app /Applications/Microsoft\ Excel.app /Applications/Microsoft\ OneNote.app /Applications/Microsoft\ PowerPoint.app /Applications/Microsoft\ Word.app
+
