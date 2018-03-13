@@ -28,6 +28,3 @@ Create Vanila or Custom dmg
 
 
 
-Once you have the dmg file created it put it on a memory stick and have boot up the MAC OS in recovery mode open terminal and use the following
-
-asr restore —erase —noprompt —buffersize 4m —source /Volumes/inputdevice/file —target /dev/disk0s2
